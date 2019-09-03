@@ -2,12 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <script src="components/mapa.js"></script>
 
   <script src="components/jquery-3.4.1.min.js"></script>
-  <script src="components/acao.js"></script>
+  <script src="components/sistema.js"></script>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mapa.css">
 
 </head>
 <body style="background-image: linear-gradient(To right, #D8BFD8, #DDA0DD, #D8BFD8)">
@@ -16,13 +18,10 @@
        <hr><h1>Mapa</h1><hr><br>
     </div>
     <div class="col-xs-12">
-        <h3>Descubra sua localização aqui:</h3><br><br><br><br>
+        <button class="btn btn-info btn-block" id="map">Descobrir localização</button>
     </div>
-    <div class="col-xs-12">
-        <button class="btn btn-info btn-block" id="camera">Descobrir localização</button><br><br><br><br><br><br><br><br><br><br><hr>
-    </div>
-    <div class="col-xs-12">
-      <h4>MAPS/MAPS</h4>
+    <div class="map">
+
     </div>
   </div>
 </body>
