@@ -1,2 +1,12 @@
 /**/
-
+.container{
+  background-image: linear-gradient(To right, #D8BFD8, #DDA0DD, #D8BFD8);
+}
+.container h1, h3{
+  text-align: center;
+  color: slateblue;
+}
+.container h4{
+  text-align: center;
+  color: white;
+}
