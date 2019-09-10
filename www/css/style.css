@@ -1,17 +1,11 @@
 /**/
 .container{
-  background-image: linear-gradient(To right, #D8BFD8, #DDA0DD, #D8BFD8);
+  background-color: Gainsboro;
 }
-.container h1, h3{
+.container h1{
   text-align: center;
-  color: slateblue;
 }
-.container h4{
-  text-align: center;
-  color: white;
-}
-.map{
-  height: 150px;
-  width: 150px;
-
+button{
+  width: 50px;
+  height: 450px;
 }
